@@ -1,0 +1,18 @@
+---
+schemaVersion: "2.2"
+description: "Hello World"
+parameters:
+  message:
+    type: "String"
+    description: "Test Message"
+    default: "Hello World2"
+mainSteps:
+- precondition:
+    StringEquals:
+      - "platformType"
+      - "Linux"
+  action: "aws:runShellScript"
+  name: runShellScript
+  inputs:
+    runCommand:
+      - echo "{{ message }}"
