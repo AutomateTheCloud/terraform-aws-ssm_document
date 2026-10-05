@@ -1,11 +1,11 @@
 ---
 schemaVersion: "2.2"
-description: "Hello World"
+description: "Prints a message on Linux instances"
 parameters:
   message:
     type: "String"
-    description: "Test Message"
-    default: "Hello World2"
+    description: "The message to print"
+    default: "Hello World"
 mainSteps:
 - precondition:
     StringEquals:
