@@ -1,4 +1,4 @@
-# Copyright 2025 Automate the Cloud Inc.
+# Copyright 2026 Automate the Cloud Inc.
 # SPDX-License-Identifier: Apache-2.0
 
 # A Package document whose attachment is an S3 object created in the same run, so the
